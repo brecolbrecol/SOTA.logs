@@ -1,0 +1,2 @@
+#!/bin/bash
+cat EG4STS_20220910_SOTA.adi |sed -e "s/COMMENT:16>'\(\w*\) /GRIDSQUARE:6>\1 <COMMENT:10>'/" > EG4STS_20220910_GRIDSQUARE.adi
